@@ -10,7 +10,8 @@ namespace _20210127_ShoeStore.Database.Products
     public class BatuDydis
     {
         [Key]
-        public int BatasId { get; set; }
+        public int BatoDydisId { get; set; }
+        public int BatasIdSurisantis { get; set; }
         public int BatoDydis { get; set; }
         public int PoruKiekis { get; set; }
     }

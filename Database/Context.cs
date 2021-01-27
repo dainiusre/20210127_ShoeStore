@@ -11,7 +11,7 @@ namespace _20210127_ShoeStore.Database
 {
     public class Context: DbContext
     {
-        public Context()
+        public Context(): base("Batai")
         { 
         }
 

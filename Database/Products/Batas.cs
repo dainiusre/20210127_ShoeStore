@@ -11,6 +11,7 @@ namespace _20210127_ShoeStore.Database.Products
     {
         [Key]
         public int BatasId { get; set; }
+        public int BatasIdSurisantis { get; set; }
         public string BatoPavadinimas { get; set; }
         public string BatoTipas { get; set; }
         public decimal PorosKaina { get; set; }
