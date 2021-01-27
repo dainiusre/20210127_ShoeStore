@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database\Context.cs" />
+    <Compile Include="Database\ManageDb.cs" />
     <Compile Include="Database\Products\Batas.cs" />
     <Compile Include="Database\Products\BatuDydis.cs" />
     <Compile Include="Database\Sales\Pardavimas.cs" />

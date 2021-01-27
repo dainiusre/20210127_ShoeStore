@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace _20210127_ShoeStore.Database.Sales
 {
-    class Pardavimas
-    
+    public class Pardavimas
+    {
         [Key]
         public int PardavimasId { get; set; }
         public int BatasId { get; set; }

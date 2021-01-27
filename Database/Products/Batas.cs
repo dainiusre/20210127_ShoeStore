@@ -13,6 +13,6 @@ namespace _20210127_ShoeStore.Database.Products
         public int BatasId { get; set; }
         public string BatoPavadinimas { get; set; }
         public string BatoTipas { get; set; }
-        public double PorosKaina { get; set; }
+        public decimal PorosKaina { get; set; }
     }
 }
