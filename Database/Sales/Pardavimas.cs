@@ -12,7 +12,7 @@ namespace _20210127_ShoeStore.Database.Sales
         [Key]
         public int PardavimasId { get; set; }
         public int BatasId { get; set; }
-        public string ParduotaPoru { get; set; }
-        public double GautaPinigu { get; set; }
+        public int ParduotaPoru { get; set; }
+        public decimal GautaPinigu { get; set; }
     }
 }
